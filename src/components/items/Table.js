@@ -5,7 +5,7 @@ const TableHeader = () => {
       <thead>
         <tr>
           <th>Name</th>
-          <th>Job</th>
+          <th>Location</th>
         </tr>
       </thead>
     )
@@ -15,20 +15,20 @@ const TableHeader = () => {
     return (
       <tbody>
         <tr>
-          <td>Charlie</td>
-          <td>Janitor</td>
+          <td>Name1</td>
+          <td>Location1</td>
         </tr>
         <tr>
-          <td>Mac</td>
-          <td>Bouncer</td>
+          <td>Name2</td>
+          <td>Location2</td>
         </tr>
         <tr>
-          <td>Dee</td>
-          <td>Aspiring actress</td>
+          <td>Name3</td>
+          <td>Location3</td>
         </tr>
         <tr>
-          <td>Dennis</td>
-          <td>Bartender</td>
+          <td>Name4</td>
+          <td>Location4</td>
         </tr>
       </tbody>
     )

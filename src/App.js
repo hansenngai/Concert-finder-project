@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import Table from './components/items/Table'
 import Login from './components/pages/Login'
 import Submission from './components/pages/Submission'
-import Searchbar from './components/Searchbar';
+import Searchbar from './components/items/Searchbar';
 import Results from './components/pages/Results';
+import Register from './components/pages/Register';
+
 
 
 class App extends Component {
@@ -23,6 +25,7 @@ class App extends Component {
              <Route path ="/login" component = {Login} />
              <Route path ="/submission" component = {Submission} />
              <Route path ="/results" component = {Results}/>
+             <Route path ="/register" component = {Register}/>
           </div>
         </Router>
       )
