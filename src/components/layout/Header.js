@@ -6,7 +6,7 @@ function Header() {
     return (
         <div>
             <h1>welcome</h1>
-            <Link to="/">Home</Link> | <Link to="/login">Login</Link> | <Link to="/submission">Submit an entry</Link> | <Link to="/register">Make an account</Link> 
+            <Link to="/">Home</Link> | <Link to="/login">Login</Link> | <Link to="/register">Register</Link> | <Link to="/submission">Submit an entry</Link>  
         </div>
     )
 }
