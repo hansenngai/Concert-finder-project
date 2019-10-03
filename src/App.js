@@ -7,7 +7,8 @@ import Submission from './components/pages/Submission'
 import Searchbar from './components/items/Searchbar';
 import Results from './components/pages/Results';
 import Register from './components/pages/Register';
-
+import ObjectPage from './components/pages/ObjectPage';
+import Footer from './components/layout/Footer';
 
 
 class App extends Component {
@@ -26,7 +27,12 @@ class App extends Component {
              <Route path ="/submission" component = {Submission} />
              <Route path ="/results" component = {Results}/>
              <Route path ="/register" component = {Register}/>
+             <Route path ="/objectpage" component = {ObjectPage}/>
+
+             <Footer/>
           </div>
+
+          
         </Router>
       )
     }

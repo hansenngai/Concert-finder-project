@@ -7,7 +7,7 @@ export default function () {
         <div>
             <Table />
 
-            <img src={Samplepicture}></img>
+            <img src={Samplepicture} width="100%" ></img>
         </div>
     )
 }

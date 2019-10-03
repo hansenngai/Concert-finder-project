@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
+import ObjectPage from './../pages/ObjectPage';
+
 
 const TableHeader = () => {
     return (
@@ -15,19 +18,19 @@ const TableHeader = () => {
     return (
       <tbody>
         <tr>
-          <td>Name1</td>
+          <Link to="/objectpage"><td>Name1</td></Link>
           <td>Location1</td>
         </tr>
         <tr>
-          <td>Name2</td>
+          <Link to="/objectpage"><td>Name2</td></Link>
           <td>Location2</td>
         </tr>
         <tr>
-          <td>Name3</td>
+          <Link to="/objectpage"><td>Name3</td></Link>
           <td>Location3</td>
         </tr>
         <tr>
-          <td>Name4</td>
+          <Link to="/objectpage"><td>Name4</td></Link>
           <td>Location4</td>
         </tr>
       </tbody>
