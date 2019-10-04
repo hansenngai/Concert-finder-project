@@ -12,11 +12,11 @@ function Header() {
 }
 
 const myStyle = {
-    color:"red",
+    color:"white",
     left:0,
-    bottom:0,
+    bottom:-10,
     position:"fixed",
-    backgroundColor:"#26D5CF",
+    backgroundColor:"#00CED5",
     textAlign:"center",
     width:"100%"
   };
