@@ -33,7 +33,7 @@ export default function ObjectPage() {
                             Jane
                         </a>
                         <div className="metadata">
-                            <span className="date"> Today at 6:00PM</span>
+                            <span className="date"> Today at 7:00PM</span>
                         </div>
                         <div className="text">Poor service!</div>
                     </div>

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div>
-            <h1 style={myStyle}>footer</h1>
+            <h1 style={myStyle}>Made for CS4WW3</h1>
         </div>
     )
 }
