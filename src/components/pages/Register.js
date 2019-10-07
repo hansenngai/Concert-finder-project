@@ -1,6 +1,13 @@
 import React from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+/*
+Hansen Ngai
+Tyler Philips
+4WW3
+Assignment 1
+*/
 
+/*This page is used to collect infomraiton from the user to make an account */
 export default class Register extends React.Component {
   render() {
     return (

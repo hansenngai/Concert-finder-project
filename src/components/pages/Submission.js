@@ -1,6 +1,12 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import PropTypes from 'prop-types';
+/*
+Hansen Ngai
+Tyler Philips
+4WW3
+Assignment 1
+*/
 
 export default class Submission extends React.Component {
   render() {

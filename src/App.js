@@ -9,7 +9,15 @@ import Results from './components/pages/Results';
 import Register from './components/pages/Register';
 import ObjectPage from './components/pages/ObjectPage';
 import Footer from './components/layout/Footer';
+import Slides from './components/layout/Slides';
 
+
+/*
+Hansen Ngai
+Tyler Philips
+4WW3
+Assignment 1
+*/
 
 class App extends Component {
     render() {
@@ -19,8 +27,8 @@ class App extends Component {
             <Header />     
              <Route exact path ="/" render={props => (
                <React.Fragment>
-                 <p>home page</p>
-                 <Searchbar/>
+                 <h3 style={myStyle}>Featured Venues</h3>
+                 <Slides style={myStyle}/>
                </React.Fragment>
              )} />
              <Route path ="/login" component = {Login} />
@@ -28,7 +36,6 @@ class App extends Component {
              <Route path ="/results" component = {Results}/>
              <Route path ="/register" component = {Register}/>
              <Route path ="/objectpage" component = {ObjectPage}/>
-
              <Footer/>
           </div>
 
@@ -38,7 +45,11 @@ class App extends Component {
     }
   }
 
-
+const myStyle = {
+    position:"center",
+    width:"100%",
+    textAlign:"center"
+  };
 
 export default App
 

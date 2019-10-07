@@ -822,6 +822,11 @@ caption {
   .contain-table {
     width: 100%; } }
 
+.carousel-item > img { 
+  width: 60%; 
+  height:400px;
+}
+
 /*
  * Layout
  */

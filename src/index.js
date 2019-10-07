@@ -6,6 +6,11 @@ import Table from './components/items/Table'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+// Hansen Ngai
+// Tyler Philips
+// 4WW3
+// Assignment 1
+
 
 
 ReactDOM.render(<App />, document.getElementById('root'))

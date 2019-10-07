@@ -1,8 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import hand from './../../images/hand.png'
+/*
+Hansen Ngai
+Tyler Philips
+4WW3
+Assignment 1
+*/
 
 
+/* This file displays a footer that will be used on each webpage*/
 function Footer() {
     return (
         <div style={myStyle}>
@@ -22,6 +29,7 @@ function Footer() {
     )
 }
 
+/* customized style used on footer layout to control sizing and colour*/
 const myStyle = {
     color:"white",
     left:0,
