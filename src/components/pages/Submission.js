@@ -12,11 +12,11 @@ export default class Submission extends React.Component {
         </FormGroup>
         <FormGroup>
           <Label for="exampleDescription">Description</Label>
-          <Input type="textarea" name="description" id="exampleDescription" placeholder="Enter a brief description" />
+          <Input type="textarea" style={myStyle} name="description" id="exampleDescription" placeholder="Enter a brief description" />
         </FormGroup>
-        <FormGroup>
-          <Label for="exampleText">Longitude and Latitude</Label>
-          <Input type="textarea" name="text" id="exampleText" />
+        <FormGroup >
+          <Label for="exampleText">Longitude and Latitude </Label>
+          <Input type="textarea" name="text" id="exampleText" style={myStyle}/>
         </FormGroup>
         <FormGroup>
           <Label for="exampleFile">File</Label>
@@ -31,6 +31,9 @@ export default class Submission extends React.Component {
     );
   }
 }
+const myStyle = {
+    height:"40px"
+  };
 
 /* Input.propTypes = {
     children: PropTypes.node,

@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 
 export default function Searchbar() {
     return (
-        <div>
-        <input type="text" placeholder="Search here"/>
+        <span >
+        <input type="text" placeholder="Search here" size="20" style={myStyle}/>
 
-        <select>
+        <select style={myStyle}>
             <option value="" disabled selected>Select your rating</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -16,9 +16,14 @@ export default function Searchbar() {
             <option value="4">4</option>
             <option value="5">5</option>
         </select>
-        <Link to="Results"><button type="button" placeholder="Submit">Search!</button></Link>
+        <Link to="Results"><button type="button" style={myStyle} placeholder="Submit">Search! </button></Link>
         
-        </div>
+        </span>
         
     )
 }
+
+const myStyle = {
+    display:"inlineblock !important"
+
+  };
