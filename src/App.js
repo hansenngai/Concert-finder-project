@@ -27,7 +27,7 @@ class App extends Component {
             <Header />     
              <Route exact path ="/" render={props => (
                <React.Fragment>
-                 <h3 style={myStyle}>Featured Venues</h3>
+                 <h3   style={myStyle}>Featured Venues</h3>
                  <Slides style={myStyle}/>
                </React.Fragment>
              )} />
@@ -48,7 +48,8 @@ class App extends Component {
 const myStyle = {
     position:"center",
     width:"100%",
-    textAlign:"center"
+    textAlign:"center",
+    fontFamily:"Arial Black"
   };
 
 export default App

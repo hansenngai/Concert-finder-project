@@ -25,12 +25,10 @@ function Header() {
 		        		<td width="220">
 		        		<Link to="/"><img src={logo} width="200" height="60"  ></img></Link> 
 		        		</td>
-
 		        		<td>
 				        	<Link to="/"> <Button color="secondary"> Home</Button></Link> 	
 				        	<Link to="/submission"><Button color="secondary">Submit Entry</Button></Link>    
 				        </td>
-
 		        		<td >
 		        		<ButtonGroup style={{backgroundColor:"white"} }>
 
@@ -46,7 +44,7 @@ function Header() {
 					        </select>
 
 					        
-					        <Link to="Results"><button type="button" style={myStyle} placeholder="Submit">Search </button></Link>
+					        <Link to="Results"><button type="button"  placeholder="Submit">Search </button></Link>
 
 				        </ButtonGroup>
 				        </td>
