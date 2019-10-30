@@ -2,6 +2,12 @@ Tyler Philips 400017512
 Hansen Ngai 400020201
 4WW3
 
+Submission.js validations
+-all values must be filled
+-description must be between 10 and 200 characters
+-long and lat must be between 5 and 30 chars
+-address must start with 4 digits and have at least 5 characters
+-zip code must be of format letter number letter number letter number
 
 link:
 https://cs4ww3.herokuapp.com
