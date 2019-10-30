@@ -46,8 +46,8 @@ export default class Register extends React.Component {
           </Col>
           <Col md={2}>
             <FormGroup>
-              <Label for="exampleZip">Zip</Label>
-              <Input type="text" name="zip" id="exampleZip"/>
+              <Label for="exampleZip">Postal Code</Label>
+              <Input type="text" name="zip" pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d" id="exampleZip"/>
             </FormGroup>  
           </Col>
         </Row>
