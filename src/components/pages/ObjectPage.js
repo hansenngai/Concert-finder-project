@@ -1,13 +1,11 @@
 import React from 'react'
 import Image2 from './../../images/samplepicture2.png'
 import faker from 'faker'
+import MapContainer from './../items/MapContainer'
 
 export default function ObjectPage() {
     return (
         <div>
-            <img src={Image2} width="50%" height="25%"></img>
-
-
             <div className="ui container comments">
                 <div className="comment">
                     <a href="/" className="avatar">
@@ -39,6 +37,7 @@ export default function ObjectPage() {
                     </div>
                 </div>
 		    </div>
+            <MapContainer/>
         </div>
     )
 }

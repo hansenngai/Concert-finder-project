@@ -1,14 +1,14 @@
 import React from 'react'
 import Table from './../items/Table'
 import Samplepicture from './../../images/samplepicture.png'
-import MapContainer from './../items/MapContainer'
+import MapContainer78787 from './../items/MapContainer'
 
 export default function () {
     return (
         <div>
             <Table />
 
-            <MapContainer />
+            <MapContainer78787 />
         </div>
     )
 }
