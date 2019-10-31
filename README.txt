@@ -31,7 +31,8 @@ and not left blank. ***
 -zip code must be of format letter number letter number letter number
 
 link:
-https://cs4ww3.herokuapp.com
+Assignment 1: https://cs4ww3.herokuapp.com
+Assignment 2: http://54.145.126.177:3000/ 
 
 github:
 https://github.com/hansenngai/CS4WW3-project
