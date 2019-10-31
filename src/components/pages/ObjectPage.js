@@ -6,6 +6,7 @@ import MapContainer from './../items/MapContainer'
 export default function ObjectPage() {
     return (
         <div>
+            <h2>Sample: Emerson Pub</h2>
             <div className="ui container comments">
                 <div className="comment">
                     <a href="/" className="avatar">

@@ -18,8 +18,8 @@ const TableHeader = () => {
     return (
       <tbody>
         <tr>
-          <Link to="/objectpage"><td>Name1</td></Link>
-          <td>Location1</td>
+          <Link to="/objectpage"><td>Emerson Pub</td></Link>
+          <td>123 Sterling St</td>
         </tr>
         <tr>
           <Link to="/objectpage"><td>Name2</td></Link>
