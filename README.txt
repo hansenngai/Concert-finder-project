@@ -5,7 +5,9 @@ Hansen Ngai 400020201
 NOTES TO TA: PLEASE READ
 
 Note for the live Google Maps: 
-1. SSL is not working so it will not auto detect location, but it works on local host.
+1. SSL is not working on AWS so it will not auto detect location, but it works on local host. As a result, I have hosted Assignment2 on Heroku (pre-secured). 
+
+
 2. Clicking on the marker will lead you to the location's info page, (check URL), but the page display does not refresh. I suspect this is a React problem. 
 
 
@@ -30,9 +32,13 @@ and not left blank. ***
 -state must be between 2 and 25 chars and include letters(cap or low)
 -zip code must be of format letter number letter number letter number
 
+
+
+EXTRA INFO 
+
 link:
-Assignment 1: https://cs4ww3.herokuapp.com
-Assignment 2: http://54.145.126.177:3000/ 
+Heroku: https://cs4ww3.herokuapp.com
+AWS: http://54.145.126.177:3000/ 
 
 github:
 https://github.com/hansenngai/CS4WW3-project
