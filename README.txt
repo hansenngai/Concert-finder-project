@@ -2,6 +2,14 @@ Tyler Philips 400017512
 Hansen Ngai 400020201
 4WW3
 
+NOTES TO TA: PLEASE READ
+
+Note for the live Google Maps: 
+1. SSL is not working so it will not auto detect location, but it works on local host.
+2. Clicking on the marker will lead you to the location's info page, (check URL), but the page display does not refresh. I suspect this is a React problem. 
+
+
+
 Submission.js validations
 -all values must be filled
 -description must be between 10 and 200 characters
