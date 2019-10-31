@@ -4,12 +4,12 @@ Hansen Ngai 400020201
 
 NOTES TO TA: PLEASE READ
 
+
 Note for the live Google Maps: 
 1. SSL is not working on AWS so it will not auto detect location, but it works on local host. As a result, I have hosted Assignment2 on Heroku (pre-secured). 
 
 
 2. Clicking on the marker will lead you to the location's info page, (check URL), but the page display does not refresh. I suspect this is a React problem. 
-
 
 
 Submission.js validations

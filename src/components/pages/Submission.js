@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import PropTypes from 'prop-types';
 /*
 Hansen Ngai
@@ -16,16 +16,33 @@ export default class Submission extends React.Component {
       <Form>
         <FormGroup>
           <Label for="exampleName">Name</Label> 
-          <Input type="text" name="name" id="exampleName" placeholder="Name of establishment" />
+          <Input type="text" name="name" required="required" pattern="[a-zA-Z0-9]{1,25}" id="exampleName" placeholder="Name of establishment" />
         </FormGroup>
         <FormGroup>
           <Label for="exampleDescription">Description</Label>
-          <Input type="textarea" style={myStyle} name="description" id="exampleDescription" placeholder="Enter a brief description" />
+          <Input type="textarea" style={myStyle} name="description" required="required" id="exampleDescription" pattern="[a-zA-Z0-9]{10,200}" placeholder="Enter a brief description" />
         </FormGroup>
-        <FormGroup >
-          <Label for="exampleText">Longitude and Latitude </Label>
-          <Input type="textarea" name="text" id="exampleText" style={myStyle}/>
-        </FormGroup>
+
+        <Row form>
+          <Col md={6}>
+            <FormGroup>
+              <Label for="exampleText">Longitude and Latitude </Label>
+              <Input type="textarea" name="text" required="required" id="exampleText" pattern="[a-zA-Z0-9]{5,30}" style={myStyle} placeholder=" Longitude/Latitude" />
+            </FormGroup>
+          </Col>
+          <Col md={4}>
+            <FormGroup>
+              <Label for="exampleAddress">Address</Label>
+              <Input type="text" name="address" required="required" id="exampleAddress" pattern="\d\d\d\d\s[a-zA-Z0-9]{5,}" placeholder="1234 Main St"/>
+            </FormGroup>
+          </Col>
+          <Col md={2}>
+            <FormGroup>
+              <Label for="exampleZip">Zip</Label>
+              <Input type="text" name="zip"  required="required" pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d"  id="exampleZip" placeholder="zip code"/>
+            </FormGroup>  
+          </Col>
+        </Row>
         <FormGroup>
           <Label for="exampleFile">File</Label>
           <Input type="file" name="file" id="exampleFile" />
