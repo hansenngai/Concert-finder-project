@@ -9,6 +9,8 @@ const mapStyles = {
   }
 };
 
+//this class contains functions to find the user's current location. 
+
 export class CurrentLocation extends React.Component {
     //constructor, making it stateful
     constructor(props) {

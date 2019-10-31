@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import ObjectPage from './../pages/ObjectPage';
 
-
+//placeholder table for results
 const TableHeader = () => {
     return (
       <thead>

@@ -7,6 +7,8 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom';
 import ObjectPage from './../pages/ObjectPage';
 
+
+//this class is an extension of google's infowindow, so that we can support a button and link in it, since React won't let us do that
 export default class InfoWindowEx extends Component {
     constructor(props) {
       super(props);

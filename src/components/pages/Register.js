@@ -34,9 +34,9 @@ import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from 'react
               return false;
            }
            if( document.regForm.zip.value == "" || isNaN( document.regForm.zip.value ) ||
-              document.regForm.zip.value.length != 5 ) {
+              document.regForm.zip.value.length != 6 ) {
               
-              alert( "Please enter a zip in the format #####" );
+              alert( "Please enter a postal code in the format" );
               document.regForm.zip.focus() ;
               return false;
            }

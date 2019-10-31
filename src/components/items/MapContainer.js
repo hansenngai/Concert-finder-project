@@ -8,13 +8,15 @@ import ObjectPage from './../pages/ObjectPage';
 import CurrentLocation from './Map';
 import InfoWindowEx from './InfoWindowEx';
 
+
+//This class contains the data to create the map. 
 export class MapContainer extends Component {
   state = {
     showingInfoWindow: false,
     activeMarker: {},
     selectedPlace: {}
   };
-
+//show marker on click
   onMarkerClick = (props, marker, e) =>
     this.setState({
       selectedPlace: props,
