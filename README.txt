@@ -4,6 +4,8 @@ Hansen Ngai 400020201
 
 NOTES TO TA: PLEASE READ
 
+SITE: https://cs4ww3.herokuapp.com
+
 
 Note for the live Google Maps: 
 1. SSL is not working on AWS so it will not auto detect location, but it works on local host. As a result, I have hosted Assignment2 on Heroku (pre-secured). 
@@ -37,8 +39,9 @@ and not left blank. ***
 EXTRA INFO 
 
 link:
-Heroku: https://cs4ww3.herokuapp.com
-AWS: http://54.145.126.177:3000/ 
+Heroku (please grade using this): https://cs4ww3.herokuapp.com
+AWS (not secure): http://54.145.126.177:3000/ 
+Domain name (not secure): encore.best
 
 github:
 https://github.com/hansenngai/CS4WW3-project
