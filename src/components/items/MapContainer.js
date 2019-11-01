@@ -74,6 +74,7 @@ export class MapContainer extends Component {
 //export default withRouter(MapContainer);
 //const MapContainer2 = withRouter(MapContainer);
 
+//our maps API key
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyCjNntlsCbXB1MPAjkWF_19ZVO2gfgj8m8'
 })(MapContainer);
