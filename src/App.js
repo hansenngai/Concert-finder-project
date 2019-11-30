@@ -11,6 +11,11 @@ import ObjectPage from './components/pages/ObjectPage';
 import Footer from './components/layout/Footer';
 import Slides from './components/layout/Slides';
 
+import CreateVenue from './components/CreateVenue';
+import ShowVenueList from './components/ShowVenueList';
+import ShowVenueDetails from './components/ShowVenueDetails';
+import UpdateVenueInfo from './components/UpdateVenueInfo';
+
 
 /*
 Hansen Ngai
@@ -36,6 +41,11 @@ class App extends Component {
              <Route path ="/results" component = {Results}/>
              <Route path ="/register" component = {Register}/>
              <Route path ="/objectpage" component = {ObjectPage}/>
+
+             <Route path ="/create-venue" component = {CreateVenue}/>
+             <Route path ="/showvenuelist" component = {ShowVenueList}/>
+             <Route path='/edit-venue/:id' component={UpdateVenueInfo} />
+             <Route path='/show-venue/:id' component={ShowVenueDetails} />
              <Footer/>
           </div>
 

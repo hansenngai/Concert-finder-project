@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+//import '../App.css';
 import axios from 'axios';
 
 class showVenueDetails extends Component {
@@ -54,32 +54,32 @@ class showVenueDetails extends Component {
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Title</td>
+            <td>Name</td>
             <td>{ venue.name }</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Author</td>
+            <td>Description</td>
             <td>{ venue.description }</td>
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td>ISBN</td>
+            <td>Longitude and Latitude</td>
             <td>{ venue.longandlat}</td>
           </tr>
           <tr>
             <th scope="row">4</th>
-            <td>Publisher</td>
+            <td>Address</td>
             <td>{ venue.address }</td>
           </tr>
           <tr>
             <th scope="row">5</th>
-            <td>Published Date</td>
+            <td>Postal Code</td>
             <td>{ venue.postal_code }</td>
           </tr>
           <tr>
             <th scope="row">6</th>
-            <td>Description</td>
+            <td>File Submit</td>
             <td>{ venue.file_submit }</td>
           </tr>
         </tbody>
@@ -92,7 +92,7 @@ class showVenueDetails extends Component {
           <div className="row">
             <div className="col-md-10 m-auto">
               <br /> <br />
-              <Link to="/" className="btn btn-outline-warning float-left">
+              <Link to="/showvenuelist" className="btn btn-outline-warning float-left">
                   Show Venue List
               </Link>
             </div>

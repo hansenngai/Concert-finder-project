@@ -27,7 +27,7 @@ function Header() {
 		        		</td>
 		        		<td>
 				        	<Link to="/"> <Button color="secondary"> Home</Button></Link> 	
-				        	<Link to="/submission"><Button color="secondary">Submit Entry</Button></Link>    
+				        	<Link to="/create-venue"><Button color="secondary">Submit Entry</Button></Link>    
 				        </td>
 		        		<td >
 		        		<ButtonGroup style={{backgroundColor:"white"} }>
@@ -44,7 +44,7 @@ function Header() {
 					        </select>
 
 					        
-					        <Link to="Results"><button type="button"  placeholder="Submit">Search </button></Link>
+					        <Link to="/showvenuelist"><button type="button"  placeholder="Submit">Search </button></Link>
 
 				        </ButtonGroup>
 				        </td>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+//import '../App.css';
 import axios from 'axios';
 
 
@@ -13,7 +13,7 @@ class CreateVenue extends Component {
       longandlat:'',
       address:'',
       postal_code:'',
-      publisher:''
+      file_submit:''
     };
   }
 
@@ -44,7 +44,7 @@ class CreateVenue extends Component {
           postal_code:'',
           file_submit:''
         })
-        this.props.history.push('/');
+        this.props.history.push('/showvenuedetails');
       })
       .catch(err => {
         console.log("Error in CreateVenue!");
@@ -58,7 +58,7 @@ class CreateVenue extends Component {
           <div className="row">
             <div className="col-md-8 m-auto">
               <br />
-              <Link to="/" className="btn btn-outline-warning float-left">
+              <Link to="/showvenuelist" className="btn btn-outline-warning float-left">
                   Show List
               </Link>
             </div>
@@ -72,7 +72,7 @@ class CreateVenue extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Title of the Book'
+                    placeholder='Name of the venue'
                     name='name'
                     className='form-control'
                     value={this.state.name}
@@ -84,7 +84,7 @@ class CreateVenue extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='ISBN'
+                    placeholder='Description of the venue'
                     name='description'
                     className='form-control'
                     value={this.state.description}
@@ -95,7 +95,7 @@ class CreateVenue extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Author'
+                    placeholder='Longitude and Latitude'
                     name='longandlat'
                     className='form-control'
                     value={this.state.longandlat}
@@ -106,7 +106,7 @@ class CreateVenue extends Component {
                 <div className='form-group'>
                   <input
                     type='text'
-                    placeholder='Describe this book'
+                    placeholder='Address of venue'
                     name='address'
                     className='form-control'
                     value={this.state.address}
@@ -116,8 +116,9 @@ class CreateVenue extends Component {
 
                 <div className='form-group'>
                   <input
-                    type='date'
-                    placeholder='postal_code'
+                    type='text'
+                    placeholder='Postal Code'
+                    pattern="[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d"
                     name='postal_code'
                     className='form-control'
                     value={this.state.postal_code}

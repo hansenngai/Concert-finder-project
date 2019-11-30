@@ -33,8 +33,8 @@ function Footer() {
 const myStyle = {
     color:"white",
     left:0,
-    bottom:-10,
-    position:"fixed",
+    bottom:0,
+    position:"relative",
     backgroundColor:"#00CED5",
     textAlign:"center",
     width:"100%"

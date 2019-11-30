@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import '../App.css';
+//import '../App.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-//import BookCard from './BookCard';
+import VenueCard from './VenueCard';
 
 class ShowVenueList extends Component {
   constructor(props) {
@@ -60,7 +60,7 @@ class ShowVenueList extends Component {
           </div>
 
           <div className="list">
-                {VenueList}
+                {venueList} 
           </div>
         </div>
       </div>
