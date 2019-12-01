@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import VenueCard from './VenueCard';
+import MapContainer from './items/MapContainer';
 
 class ShowVenueList extends Component {
   constructor(props) {
@@ -62,7 +63,9 @@ class ShowVenueList extends Component {
           <div className="list">
                 {venueList} 
           </div>
+          <MapContainer/>
         </div>
+        
       </div>
     );
   }

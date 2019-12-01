@@ -129,7 +129,7 @@ class CreateVenue extends Component {
                   <input
                     type='text'
                     placeholder='file_submit'
-                    name='file_submit'
+                    name='enter a number'
                     className='form-control'
                     value={this.state.file_submit}
                     onChange={this.onChange}

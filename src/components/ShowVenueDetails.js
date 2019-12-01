@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 //import '../App.css';
 import axios from 'axios';
+import MapContainer from './items/MapContainer';
 
 class showVenueDetails extends Component {
   constructor(props) {
@@ -79,7 +80,7 @@ class showVenueDetails extends Component {
           </tr>
           <tr>
             <th scope="row">6</th>
-            <td>File Submit</td>
+            <td>Rating</td>
             <td>{ venue.file_submit }</td>
           </tr>
         </tbody>
@@ -127,6 +128,7 @@ class showVenueDetails extends Component {
             <button type="button" class="btn btn-outline-danger btn-lg btn-block">Delete Book</button> */}
 
         </div>
+        <MapContainer/>
       </div>
     );
   }
